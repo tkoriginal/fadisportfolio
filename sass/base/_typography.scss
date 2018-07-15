@@ -1,0 +1,58 @@
+.heading-primary{
+    &--main{
+        font-family: "Baskerville";
+        font-size: 7.2rem;
+        font-weight: 200;
+    }
+
+    &--sub{
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 4.8rem;
+        letter-spacing: 2px;
+        font-weight: 300;
+    }
+}
+
+.about-fadi{
+    
+    &--heading{
+        font-family: "Baskerville";
+        font-size: 3.8rem;
+        font-weight: 200;
+    }
+
+    &--description{
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 2rem;
+        letter-spacing: 1px;
+        font-weight: 200;
+        line-height: 2.7rem;
+    }
+}
+
+.fadis-work{
+    color: $heading-color;
+    text-decoration: underline;
+}
+
+.project__info{
+    &--heading{
+        font-size: 3.2rem; 
+        font-family: "Baskerville";
+        font-weight: 100;       
+    }
+    &--description{
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        font-weight: 100;
+        line-height: 2.7rem;
+        padding-bottom: 3rem;
+    }
+    &--readmore{
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 200;
+        font-size: 1.8rem;
+        letter-spacing: 3px;
+    }
+}

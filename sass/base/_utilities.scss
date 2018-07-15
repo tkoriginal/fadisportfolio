@@ -1,0 +1,59 @@
+.underline-1::after{
+        content:url(/CSS/Assets/img/sub_underline_1.png);
+        position: absolute;
+        display: inline-block;
+        left:0;
+        top:7%;
+        z-index: -1;
+    }
+.underline-2::after{
+    content:url(/CSS/Assets/img/sub_underline_2.png);
+    position: absolute;
+    display: inline-block;
+    left:0;
+    top:58%;
+    z-index: -1;
+}
+.underline-3::after{
+    content:url(/CSS/Assets/img/about_underline.png);
+    position: absolute;
+    display: inline-block;
+    left:-0.5%;
+    top:24%;
+    z-index: -1;
+}
+
+.description-space:not(:last-child){
+    margin-bottom: 1.8rem;
+    padding-right:7rem;
+}
+
+.yellow{
+    position: absolute;
+    top:23%;
+    left:6%;
+}
+
+.pink{
+    position: absolute;
+    top:12%;
+    left:50%;
+}
+
+.green{
+    position: absolute;
+    top:62%;
+    left:77%;
+}
+
+.blue{
+    position: absolute;
+    top: 95%;
+    left:30%;
+}
+
+.header--chevron{
+    position: absolute;
+    top:93%;
+    left:50%;
+}

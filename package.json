@@ -1,0 +1,14 @@
+{
+  "name": "fadis_portfolio",
+  "version": "1.0.0",
+  "description": "Hi, I'm Fadi. An insatiably curious product designer",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Tauqueer Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}

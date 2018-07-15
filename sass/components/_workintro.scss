@@ -1,0 +1,11 @@
+.project{
+    border: 0.7px solid #D7D7D7;
+    border-radius: 1rem;
+    margin-bottom: 13rem;
+    &__info{
+        padding: 3.2rem 8.5rem 3.2rem 6.5rem;   
+    }
+    &--image{
+        max-width: 100%;
+    }   
+}

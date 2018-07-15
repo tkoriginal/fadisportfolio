@@ -1,0 +1,46 @@
+.header{
+    width: 1440px;
+    height:750px;
+    position: relative;
+    margin: 0 auto;
+    color: $heading-color;
+
+    &__textbox{
+        position: absolute;
+        top: 24.8rem;
+        left: 26rem;
+        font-size: 4rem;
+    }
+}
+
+.heading-primary{
+    margin-bottom: 2rem;
+    letter-spacing: 3px;
+
+    &--main::before{
+        background-image: url(Assets/img/waving-hand-sign_emoji-modifier-fitzpatrick-type-3_1f44b-1f3fc_1f3fc.png);
+        background-size:7rem;
+        background-repeat: no-repeat;
+        display: inline-block;
+        content: "";
+        width: 7rem;
+        height: 7rem;
+        margin-right: 0.5rem;
+        position: absolute;
+        top:4%;
+        left:-16%;
+    }
+
+    &--main{
+        display:block;
+    }
+
+    &--sub{
+        display: block;
+        z-index: 50;
+    }
+}
+
+.heading-secondary{
+    position:relative;
+}
