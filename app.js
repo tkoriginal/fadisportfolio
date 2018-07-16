@@ -1,11 +1,10 @@
-var express = require("express");
-var app = express();
+const express = require('express')
+const path = require('path')
+const PORT = process.env.PORT || 5000
 
-app.engine('html',require(ejs).renderFile);
-app.set("view-engine", "html");
-
-app.get("/", function(req,res){
-    res.render("home");
-})
-
-app.listen(process.env.PORT, process.env.IP);
+express()
+  .use(express.static(path.join(__dirname, 'public')))
+  .set('views', path.join(__dirname, 'views'))
+  .set('view engine', 'ejs')
+  .get('/', (req, res) => res.render('views/home'))
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
