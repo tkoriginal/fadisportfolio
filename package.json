@@ -2,7 +2,7 @@
   "name": "fadis_portfolio",
   "version": "1.0.0",
   "description": "Hi, I'm Fadi. An insatiably curious product designer",
-  "main": "index.html",
+  "main": "app.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
@@ -10,5 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.9.2"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
   }
 }
