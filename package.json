@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Hi, I'm Fadi. An insatiably curious product designer",
   "main": "app.js",
+  "engines": {
+    "node": "8.9.1"
+  },
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "start": "node app.js"
